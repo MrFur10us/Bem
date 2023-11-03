@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,6 +23,7 @@
           <a href="/" class="header__logo"
             >Freelancer <span class="header_logo_port">portfolio</span></a
           >
+          <input id="menuCheckbox"  type="checkbox" />
           <ul class="header__ul">
             <li class="header__li">
               <a href="/" class="header__a">Projects</a>
@@ -27,13 +32,16 @@
             <li class="header__li">
               <a href="/" class="header__a">Contacts</a>
             </li>
+            <label for="menuCheckbox" class="menu-burger">
+              <span class="material-symbols-outlined"> menu </span>
+            </label>
           </ul>
         </div>
       </header>
       <div class="container">
         <div class="info">
           <div class="info__title">
-            Hi, my name is <span class="info_title_active">Yuri</span>
+            Hi, my name is <span class="info_title_active">Misha</span>
           </div>
           <div class="info__role">a frontend developer</div>
           <div class="info__desc">with passion for learning and creating.</div>
